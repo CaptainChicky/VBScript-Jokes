@@ -1,6 +1,6 @@
 # What is the VBScript notifications joke?
 This is a little computer virus joke made from notifications via VBScript. This is *completely safe*, meaning that you can send this to your less computer-able friends to scare or prank them without damaging anything(except possibly the mental state of the recieving end 😂).
-*Note*: A suggestion of how to do this is to download the files to their desktop, give the "Assets" folder the hidden attribute, and replace/add the their genuine "My PC.lnk" shortcut with the "My PC.lnk" supplied here(most likely has the same icon, so looks genuine but actually opens the batch file which opens the .vbs file).
+*Note*: A suggestion of how to do this is to download the files to their desktop, give the "Assets" folder the hidden attribute, and replace/add the their genuine "My PC.lnk" shortcut with the "My PC.lnk" supplied here(most likely has the same icon, so looks genuine but actually opens the batch file which opens the .vbs file). Of course, always remember to mark the files as "trusted" first, or else Windows Defender will block if it is openned.
 
 # What this repository contains...
 This repository contains the "Assets" folder, containing:
