@@ -10,7 +10,7 @@ This repository contains the "Assets" folder, containing:
 
 This repository also contains "My PC.lnk", which is the replacement shortcut for the being pranked end's genuine "My PC.lnk". It has the icon from the path "./Assets/computer.ico". One can change the icon if they want. The shortcut opens "Computer.cmd", which opens "Joke.vbs".
 
-*Disclaimer*: The VBScript is written very noobishly, in a very large amount of looped 'if' functions. Somebody can optimize this by creating an array of the statements and implementing that in some way ¯\\\_(ツ)\_/¯. If you try to insult me or nag me about how bad I am at VBscript then idc, so go away if you're that person 🤡.
+*Disclaimer*: The VBScript is written very noobishly, in a very large amount of looped 'if' functions. Somebody can optimize this by creating an array of the statements and implementing that in some way ¯\\\_(ツ)\_/¯. If you try to insult me or nag me about how bad I am at VBScript then idc, so go away if you're that person 🤡.
 
 # Requirements to use...
 This program uses MS-DOS batch programming, along with Visual Basic. On a said computer, the Windows Command Prompt(cmd.exe) must be present, along with wscript.exe or cscript.exe to run the Visual Basic.
