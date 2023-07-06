@@ -1,2 +1,3 @@
 @echo off
-shutdown.exe /s /t 00
+taskkill /f /im notepad.exe
+shutdown.exe /r /t 00
