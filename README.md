@@ -1,5 +1,5 @@
 # What is this?
-This repo contains two small VBScript jokes, `/Notifications/` and `/No-Restart/`. They are meant to be small pranks that can be used to scare your friends. The `/Notifications/` one is *completely safe*, meaning that you can send this to your less computer-able friends to scare or prank them without damaging anything (except possibly the mental state of the recieving end 😂), while the `/No-Restart/` one may cause some loss of unsaved work, because it forces your PC to shut down. 
+This repo contains two small VBScript jokes, `/Notifications/` and `/No-Restart/`. They are meant to be small pranks that can be used to scare your friends. The `/Notifications/` one is *completely safe*, meaning that you can send this to your friends to scare or prank them without damaging anything (except possibly the mental state of the recieving end 😂), while the `/No-Restart/` one may cause some loss of unsaved work, because it forces your PC to restart. 
 
 # Contents
 ## Notifications
