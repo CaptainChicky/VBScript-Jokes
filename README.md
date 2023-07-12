@@ -14,7 +14,7 @@ The VBScript is for this directory is written very noobishly, in a very large am
 
 ## No-Restart
 This is located in the `/No-Restart/` directory. Here's a file overview:
-  1) `Create-lnk.ps1` - this is a PowerShell script that creates a shortcut to `/Data/Start.bad`.
+  1) `Create-lnk.ps1` - this is a PowerShell script that creates a shortcut to `/Data/Start.bat`.
   2) `/Data/Message.vbs` - the actual file types out the message that will be displayed to the and opens `Restart.bat`.
   3) `/Data/Start.bat` - this is a batchfile that opens notepad, and then `Message.vbs`.
   4) `/Data/Restart.bat` - this taskkills notepad and restarts the computer.
