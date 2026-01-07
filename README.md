@@ -8,9 +8,7 @@ This is located in the `/Notifications/` directory. Here's a file overview:
   2) `/Assets/Joke.vbs` - the actual file that opens the prank notifications.
   3) `/Assets/Computer.cmd` - this is a batchfile that opens `Joke.vbs`.
 
-What you are supposed to do here, is that after you download this repo/repo dir onto your friend's PC, you run `Create-lnk.ps1`. If their powershell execution level is blocking this, set it up to "Bypass" temporarily. Remember to change this execution level back after you are done running this script. This script will create a shortcut to `Computer.cmd` called `My PC.lnk` in the same directory as it. Then, hide the repo folder you downloaded, while replacing (you shouldn't delete it, just hide it somewhere, or make it a hidden file) your friend's `My PC.lnk` with the one you just created. When they open "My PC", they will be greeted with the VBScript prank. Again, this prank has nothing possibly destructive to it.
-
-The VBScript is for this directory is written very noobishly, in a very large amount of nested 'if' functions with questionable variable names. There's not really any way to optimize it either that I know, so whatever.
+What you are supposed to do here, is that after you download this repo/repo dir onto your friend's PC, you run `Create-lnk.ps1`. If their powershell execution level is blocking this, set it up to "Bypass" temporarily. Remember to change this execution level back after you are done running this script. This script will create a shortcut to `Computer.cmd` called `My PC.lnk` in the same directory as it. Then, hide the repo folder you downloaded, while replacing (you shouldn't delete it, just hide it somewhere in the same directory, or give it the hidden/system file attribute) your friend's `My PC.lnk` with the one you just created. When they open "My PC", they will be greeted with the VBScript prank. Again, this prank has nothing possibly destructive to it.
 
 ## No-Restart
 This is located in the `/No-Restart/` directory. Here's a file overview:
@@ -20,8 +18,6 @@ This is located in the `/No-Restart/` directory. Here's a file overview:
   4) `/Data/Restart.bat` - this taskkills notepad and restarts the computer.
 
 Again, you can run `Create-lnk.ps1` to create a shortcut called `Run Me!.lnk`, which links to `Start.bat`. You should have the correct execution level for powershell to run this script of course. The link file made here is questionable with an image that looks like a bug to make it look suspicious. I wasn't sure what I was thinking when I made this but whatever. Should your unwitting friend run it for some reason, it runs `Start.bat`, which opens notepad and then `Message.vbs`. The VBScript then types out a wacky message that ultimately tells them to not restart, but also opens `Restart.bat` after 5 seconds. `Restart.bat` then taskkills notepad and restarts the computer. This somehow seemed funny to me back in 2020, so bruh lmao. This prank is destructive, and may cause loss of unsaved work. Use with caution.
-
-Should you look at the commit history, just note that the old VBScript is written very very badly, so I've upgraded it to a better one.
 
 # Dependencies
 Ideally you should run this on a powershell with version 5.1 or higher, as I haven't tested this with older versions. Command prompt and the Windows Script Host (wscript.exe or cscript.exe) should be present on the computer you are running this on. 
